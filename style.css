@@ -87,7 +87,34 @@ span {
   display: none;
 }
 
+section {
+  min-height: 100vh;
+  padding: 5% 15%;
+}
 
+#home {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+
+img {
+  width: 18vw;
+  margin-top: 3em;
+  border-radius: 50%;
+}
+
+.info-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  width: 600px;
+  text-align: center;
+}
 
 
 
